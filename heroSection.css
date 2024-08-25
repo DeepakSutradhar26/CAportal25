@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'genSans';
+    src: url('/genSansReg.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.heroSection {
+    height: 79.30vw;
+    width: 100vw;
+    background: linear-gradient(to right, #B542FB6B 42%, #B542FB 100%);
+    background-image: url("./purple.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contHolderBox{
+    position: absolute;
+    top: 12.36vw;
+    width: 52vw;
+}
+
+.contHolderBox>p{
+    color: white;
+    font-family: genSans;
+}
+
+.alcherTxt{
+    font-size: 2.55vw;
+    font-weight: 600;
+    text-align: center;
+}
+
+.caTxt{
+    font-size: 4.44vw;
+    font-weight: 700;
+    text-align: center;
+}
+
+.caPara{
+    font-size: 1.11vw;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0.3vw;
+}
+
+.joinBtn{
+    position: absolute;
+    top: 33.61vw;
+    height: 3.88vw;
+    width: 11.11vw;
+    border-radius: 0.55vw;
+    background: #B542FB;
+    border: none;
+    cursor: pointer;
+    font-size: 1.66vw;
+    color: white;
+    font-weight: 600;
+}
+
+.counterBox {
+    position: absolute;
+    top: 46.25vw;
+    height: 7.84vw;
+    width: 77.91vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.valBox {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.valBox>p {
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    font-family: genSans;
+}
+
+.num {
+    font-size: 4.44vw;
+    font-weight: 700;
+}
+
+.title {
+    font-size: 1.66vw;
+    font-weight: 700;
+}
